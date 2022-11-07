@@ -1,5 +1,5 @@
 const { version } = require('../../package.json');
-const config = require('../config/config');
+// const config = require('../config/config');
 
 const swaggerDef = {
   openapi: '3.0.0',
@@ -13,7 +13,7 @@ const swaggerDef = {
   },
   servers: [
     {
-      url: `https://openspec-userauth.herokuapp.com:3000/v1`,
+      url: `https://openspec-userauth.herokuapp.com/v1`,
     },
   ],
 };
