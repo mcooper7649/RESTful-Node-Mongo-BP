@@ -13,7 +13,7 @@ const swaggerDef = {
   },
   servers: [
     {
-      url: `https://openspec-userauth.herokuapp.com:${config.port}/v1`,
+      url: `https://openspec-userauth.herokuapp.com:3000/v1`,
     },
   ],
 };
