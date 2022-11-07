@@ -5,7 +5,7 @@ info:
   description: A simple USER AUTH API to illustrate OpenAPI concepts
 
 servers:
-  - url: http://localhost:3000/v1
+  - url: https://openspec-userauth.herokuapp.com/v1
 
 # Basic authentication
 components:
