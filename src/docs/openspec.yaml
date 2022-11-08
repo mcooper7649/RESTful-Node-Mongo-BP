@@ -10,11 +10,10 @@ servers:
 # Basic authentication
 components:
   securitySchemes:
-    BasicAuth:
+    bearerAuth:
       type: http
-      scheme: basic
-security:
-  - BasicAuth: []
+      scheme: bearer
+      bearerFormat: JWT
 
 paths:
   /users:
